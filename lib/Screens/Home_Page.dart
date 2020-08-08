@@ -5,6 +5,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:covid_app/widgets/button.dart';
 import 'package:covid_app/config/palette.dart';
+import 'package:covid_app/Screens/shop/homescr.dart';
 
 class HomeScr extends StatefulWidget {
   @override
@@ -29,6 +30,7 @@ class _HomeScrState extends State<HomeScr> {
           _buildStatsButton(screenHeight),
           _buildPreventionButton(screenHeight),
           _buildMapsButton(screenHeight),
+          _buildShopButton(screenHeight),
         ],
       ),
     );
@@ -115,6 +117,24 @@ SliverToBoxAdapter _buildPreventionButton (double screenHeight){
     )
     );
  }
+
+  SliverToBoxAdapter _buildShopButton (double screenHeight){
+
+
+    return SliverToBoxAdapter(child: Container(
+      child: Button(
+                      onTap: (){
+                        Navigator.of(context).push(_createRoute8());
+                      },
+                      buttonTitle:'Shop' ,
+                      textsize: 25,
+                      color: 0xFF424242,
+                    ),
+                    height: 200,
+    )
+    );
+ }
+
 }
 
 
@@ -157,6 +177,23 @@ Route _createRoute3() {
 Route _createRoute7() {
   return PageRouteBuilder(
     pageBuilder: (context, animation, secondaryAnimation) => MyMap(),
+    transitionsBuilder: (context, animation, secondaryAnimation, child) {
+      var begin = Offset(0.0, 1.0);
+      var end = Offset.zero;
+      var curve = Curves.ease;
+
+      var tween = Tween(begin: begin, end: end).chain(CurveTween(curve: curve));
+
+      return SlideTransition(
+        position: animation.drive(tween),
+        child: child,
+      );
+    },
+  );
+}
+Route _createRoute8() {
+  return PageRouteBuilder(
+    pageBuilder: (context, animation, secondaryAnimation) => HomeScreen(),
     transitionsBuilder: (context, animation, secondaryAnimation, child) {
       var begin = Offset(0.0, 1.0);
       var end = Offset.zero;
