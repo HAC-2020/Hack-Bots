@@ -47,10 +47,18 @@ masks and sanitizers through our app.
 
 ## We made it using -
 
+1. Flutter
+
+2. Ethereum
+
 
 
 
 ## Challenges we ran into-
+
+We ran into the following challenges:
+1. To mark the places and the number of cases in the maps.
+2. Linking ethereum to our app.
 
 
 
