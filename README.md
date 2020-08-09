@@ -34,6 +34,8 @@ If you want to buy masks,sanitizers and other goods that can also be done using 
 button. In order to pay successfuly you should open the link on desktop and should have metamask wallet.
 We also provided all the positive news regarding covid situation in our news section.
 
+Link to ethereum payment: oneclickdapp.com/raja-desire/.
+
 ### CRA
 
 CRA has the following Capabilities:
