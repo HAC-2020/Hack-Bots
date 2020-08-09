@@ -35,6 +35,7 @@ and respectively can take necessary precautions. Due to the E-Payment apps, peop
 ### CRA
 
 CRA has the following Capabilities:
+
 1.In CRA, we were able to link ethereum with our app. Ethereum is second largest cryptocurrency with a scope to grow larger in the upcoming bright days.
 People after communicating with doctors can pay through ethereum which directly is linked to their wallet to buy
 masks and sanitizers through our app.
