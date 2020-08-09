@@ -53,8 +53,8 @@ People after communicating with doctors can pay through ethereum which directly 
 
 ## We made it using -
 
-This app is completely made using flutter. For ether payment method we used solidity.
-=======
+### This app is completely made using flutter. For ether payment method we used solidity.
+
 
 1. Flutter
 
