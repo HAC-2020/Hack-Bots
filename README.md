@@ -18,7 +18,6 @@ samples, guidance on mobile development, and a full API reference.
 
 ## Incentive
 
-<<<<<<< HEAD
 We wanted to create an app where you can find and get to know everything related to covid-19 situation from getting stats to buying masks,sanitizers.
 People in rural areas can use our app as it is simple and has a very user friendly interface. Due to extremely high occupancy doctors
 are treating non-covid patients only if it's an emergency. CRA will give them confidence as they can contact our doctor through our app.
@@ -51,7 +50,7 @@ People after communicating with doctors can pay through ethereum which directly 
 
 
 ## We made it using -
-<<<<<<< HEAD
+
 This app is completely made using flutter. For ether payment method we used solidity.
 =======
 
@@ -63,7 +62,6 @@ This app is completely made using flutter. For ether payment method we used soli
 
 
 ## Challenges we ran into-
->>>>>>> d17ba139153477946053e7050a56d2c34edcdbb8
 
 We ran into the following challenges:
 1. To mark the places and the number of cases in the maps.
