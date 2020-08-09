@@ -43,6 +43,8 @@ masks and sanitizers through our app.
 
 3.One can get to know the precautions and get educated about the disease. In this way we are ensuring the safety and health of users.
 
+![](https://github.com/HAC-2020/Hack-Bots/blob/master/HAC/symptoms.jpeg)
+
 
 
 ## We made it using -
@@ -60,6 +62,7 @@ We ran into the following challenges:
 1. To mark the places and the number of cases in the maps.
 2. Linking ethereum to our app.
 
+![](https://github.com/HAC-2020/Hack-Bots/blob/master/HAC/maps.jpeg)
 
 
 
