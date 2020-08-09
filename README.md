@@ -18,8 +18,8 @@ samples, guidance on mobile development, and a full API reference.
 
 ## Incentive
 
+<<<<<<< HEAD
 We wanted to create an app where you can find and get to know everything related to covid-19 situation from getting stats to buying masks,sanitizers.
-
 People in rural areas can use our app as it is simple and has a very user friendly interface. Due to extremely high occupancy doctors
 are treating non-covid patients only if it's an emergency. CRA will give them confidence as they can contact our doctor through our app.
 CRA contains all the symptoms that relate to Covid-19 to make the public precautious.
@@ -46,9 +46,30 @@ People after communicating with doctors can pay through ethereum which directly 
 
 3.One can get to know the precautions and get educated about the red-zones nearby their location. In this way we are ensuring the safety and health of users.
 
-## We made it using -
-This app is completely made using flutter. For ether payment method we used solidity.
+![](https://github.com/HAC-2020/Hack-Bots/blob/master/HAC/symptoms.jpeg)
 
+
+
+## We made it using -
+<<<<<<< HEAD
+This app is completely made using flutter. For ether payment method we used solidity.
+=======
+
+1. Flutter
+
+2. Ethereum
+
+
+
+
+## Challenges we ran into-
+>>>>>>> d17ba139153477946053e7050a56d2c34edcdbb8
+
+We ran into the following challenges:
+1. To mark the places and the number of cases in the maps.
+2. Linking ethereum to our app.
+
+![](https://github.com/HAC-2020/Hack-Bots/blob/master/HAC/maps.jpeg)
 
 
 
