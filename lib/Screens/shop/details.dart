@@ -11,7 +11,7 @@ class DetailsScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return SafeArea(
       child: Scaffold(
-        backgroundColor: Colors.yellow,
+        backgroundColor: Colors.black,
         body: Column(
           children: <Widget>[
             Expanded(
@@ -35,7 +35,7 @@ class DetailsScreen extends StatelessWidget {
                               Icons.shopping_basket,
                             ),
                             onPressed: () {
-                                Navigator.of(context).push(_createRoute9());
+                                
                                 }),
                       ],
                     ),
@@ -123,20 +123,3 @@ class DetailsScreen extends StatelessWidget {
   }
 }
 
-Route _createRoute9() {
-  return PageRouteBuilder(
-    pageBuilder: (context, animation, secondaryAnimation) => OrdersScreen(),
-    transitionsBuilder: (context, animation, secondaryAnimation, child) {
-      var begin = Offset(0.0, 1.0);
-      var end = Offset.zero;
-      var curve = Curves.ease;
-
-      var tween = Tween(begin: begin, end: end).chain(CurveTween(curve: curve));
-
-      return SlideTransition(
-        position: animation.drive(tween),
-        child: child,
-      );
-    },
-  );
-}

@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:covid_app/Screens/shop/global.dart';
 import 'package:covid_app/widgets/categorycontainer.dart';
 import 'package:covid_app/widgets/productcontainer.dart';
+import 'package:covid_app/Screens/shop/order.dart';
 
 class HomeScreen extends StatelessWidget {
   @override
@@ -21,7 +22,9 @@ class HomeScreen extends StatelessWidget {
         actions: <Widget>[
           IconButton(
             icon: Icon(Icons.shopping_basket),
-            onPressed: () {},
+            onPressed: () {
+              Navigator.of(context).push(_createRoute9());
+            },
           ),
         ],
       ),
@@ -83,4 +86,22 @@ class HomeScreen extends StatelessWidget {
       ),
     );
   }
+}
+
+Route _createRoute9() {
+  return PageRouteBuilder(
+    pageBuilder: (context, animation, secondaryAnimation) => OrdersScreen(),
+    transitionsBuilder: (context, animation, secondaryAnimation, child) {
+      var begin = Offset(0.0, 1.0);
+      var end = Offset.zero;
+      var curve = Curves.ease;
+
+      var tween = Tween(begin: begin, end: end).chain(CurveTween(curve: curve));
+
+      return SlideTransition(
+        position: animation.drive(tween),
+        child: child,
+      );
+    },
+  );
 }

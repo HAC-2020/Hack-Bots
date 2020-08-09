@@ -2,8 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:covid_app/config/palette.dart';
 import 'package:covid_app/data/data.dart';
 import 'package:covid_app/widgets/widgets.dart';
-import 'package:covid_app/widgets/button.dart';
-import 'package:covid_app/Screens/report_symptoms_screen.dart';
 
 
 class CheckSym extends StatefulWidget {
@@ -23,8 +21,6 @@ class _CheckSymState extends State<CheckSym> {
           _buildHeader(screenHeight),
           _buildSymptoms(screenHeight),
           _buildSymptoms_2(screenHeight),
-          _buildReportSymptoms(screenHeight),
-
         ],
       ),
     );
@@ -142,31 +138,4 @@ SliverToBoxAdapter _buildSymptoms_2(double screenHeight) {
     ),
   );
 }
-
-SliverToBoxAdapter _buildReportSymptoms(double screenHeight){
-  return SliverToBoxAdapter(
-      child: Button(buttonTitle: 'Report Symptoms', textsize: 17, color: 0xFF000000, onTap: (){
-        Navigator.of(context).push(_createRoute5());
-      })
-
-  );
-}
-}
-
-Route _createRoute5() {
-  return PageRouteBuilder(
-    pageBuilder: (context, animation, secondaryAnimation) => ReportSym(),
-    transitionsBuilder: (context, animation, secondaryAnimation, child) {
-      var begin = Offset(0.0, 1.0);
-      var end = Offset.zero;
-      var curve = Curves.ease;
-
-      var tween = Tween(begin: begin, end: end).chain(CurveTween(curve: curve));
-
-      return SlideTransition(
-        position: animation.drive(tween),
-        child: child,
-      );
-    },
-  );
 }
