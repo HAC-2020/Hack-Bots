@@ -39,11 +39,14 @@ CRA has the following Capabilities:
 1.In CRA, we were able to link ethereum with our app. Ethereum is second largest cryptocurrency with a scope to grow larger in the upcoming bright days.
 People after communicating with doctors can pay through ethereum which directly is linked to their wallet to buy
 masks and sanitizers through our app.
-![](https://github.com/HAC-2020/Hack-Bots/blob/master/HAC/maps.jpeg)
 
+![](https://github.com/HAC-2020/Hack-Bots/blob/master/HAC/maps.jpeg)
+![](https://github.com/HAC-2020/Hack-Bots/blob/master/HAC/Call.jpeg)
 2.Our app is not only confined to the graduates but also to everyone with no difficulties.
 
 3.One can get to know the precautions and get educated about the disease. In this way we are ensuring the safety and health of users.
+![](https://github.com/HAC-2020/Hack-Bots/blob/master/HAC/symptoms.jpeg)
+
 
 ## We made it using -
 
