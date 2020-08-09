@@ -20,8 +20,7 @@ samples, guidance on mobile development, and a full API reference.
 
 The doctors and policemen are working for us day and night. Taking example of metropolitan cities such as Mumbai, Hyderabad, Bangalore
 many policemen and doctors have been affected by coronavirus just because they were helping us. Keeping in mind, we didn't want to make them
-taking any chances. Hence, our app can make the people who are volunteering or working with covid-19 aware of where 
-there is high number of cases and where should they take uttermost precautions. 
+taking any chances. Hence, CRA tells people the where-abouts of Red Zones near their location. Using Google Cloud, CRA can show the red-zones in a red cirle near the users so that they can take necessary precautions if going out.
 
 People in rural areas and even people who are not literate can use our app. Due to extremely high occupancy doctors
 are treating non-covid patients only if it's an emergency. CRA will give them confidence as they can contact nearby doctors through our app.
